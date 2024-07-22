@@ -1,34 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
 body{
-    background-color: brown;
+    font-family: "Inria Serif", serif;
 }
+a,a:hover{
+    text-decoration: none;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background: yellowgreen;
+}
+.top span{
+    color: antiquewhite;
 
-#navbar{
+}
+.top ul{
+    list-style: none;
+    display: flex;
+}
+.top li{
+    margin: 0px 5px;
+}
+.top a{
+    color: black;
+}
+.top a:hover{
+    color: whitesmoke;
+}
+nav{
+    background: palevioletred;
+    padding: 5px 20px;
     display: flex;
     align-items: center;
 }
-#logo{
-    margin: 10px 34px;
+nav a{
+    color: black;
 }
-#logo img{
-    height: 59px;
-    margin: 3px 6px;
+nav a:hover{
+    color: whitesmoke;
 }
-#navbar ul{
+.logo{
+    flex: 1;
+}
+.logo a{
     display: flex;
-}
-#navbar ul li{
-    list-style: none;
+    align-items: center;
     font-size: 20px;
 }
-#navbar ul li a{
-    display: block;
-    padding: 3px 22px;
-    border-radius: 20px;
-    text-decoration: none;
+.logo a:hover{
+    color: black;
+
+}
+.logo img{
+    width: 40px;
+    height: 30px;
+    border: 3px solid black;
+    margin-right: 10px;
 }
 
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: aqua;
+}
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+}
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+@media screen and (max-width:600px){
+    nav{
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+    .menu{
+        margin-top: 15px;
+        display: none;
+
+    }
+    .menu-active, .toggle{
+        display: block;
+    }
+    .toggle{
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+}
