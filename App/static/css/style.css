@@ -6,11 +6,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.bg{
     font-family: "Inria Serif", serif;
+    background: wheat;
+   
+   
+    
 }
-a,a:hover{
-    text-decoration: none;
+/*  ta,a:hover{
+   ext-decoration: none;
 }
 .top{
     display: flex;
@@ -18,6 +22,7 @@ a,a:hover{
     justify-content: space-between;
     padding: 10px 25px;
     background: yellowgreen;
+    
 }
 .top span{
     color: antiquewhite;
@@ -35,38 +40,50 @@ a,a:hover{
 }
 .top a:hover{
     color: whitesmoke;
-}
+} */
+
 nav{
     background: palevioletred;
     padding: 5px 20px;
     display: flex;
     align-items: center;
+   
+   
 }
 nav a{
     color: black;
+    text-decoration: none;
 }
 nav a:hover{
     color: whitesmoke;
 }
 .logo{
     flex: 1;
+   
 }
 .logo a{
     display: flex;
     align-items: center;
     font-size: 20px;
+    font-weight: bold;
 }
 .logo a:hover{
-    color: black;
+    color: whitesmoke;
 
 }
 .logo img{
     width: 40px;
     height: 30px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     margin-right: 10px;
 }
-
+.im img{
+    height: 200px;
+    width: 350px;
+    margin-top: 15px;
+    border: 2px  solid black;
+    border-radius: 30px;
+}
 .menu{
     display: flex;
     align-items: center;
