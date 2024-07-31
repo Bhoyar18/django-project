@@ -12,7 +12,7 @@
 }
 .bg{
     font-family: "Inria Serif", serif;
-    background: wheat;
+    background: grey;
    
    
     
@@ -122,16 +122,86 @@ nav a:hover{
     margin-top: 20px;
 }
 
-.img1{
-    height: 400px; 
-    width: 390px;
-    background-size: cover;
 
-}
-.img2{
-    height: 400px; 
-    width: 390px;
-    background-size: cover;
 
+.container {
+    position: relative;
+    width: 50%;
 }
+.img1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+} 
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.container:hover .img1 {
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text1{
+    color: black;
+    font-weight: 700;
+    font-size: 26px;
+    padding: 16px 32px;
+    margin-right: 80px;
+    
+  }
+
+  .container2 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .img2 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    opacity: 0.8;
+    overflow: hidden;
+    width: 390px;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container2:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text2 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
