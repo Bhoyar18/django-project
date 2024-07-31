@@ -18,15 +18,15 @@
       <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
     </ul>
   </div> -->
-
   <!-- nav>.logo+.toggle+ul.menu>li*5>a -->
   <nav>
     <div class="logo">
-      <a href="#"><img src="{% static 'images/img1.jpg' %}" alt="logo">LOGO</a>
+      <a href="#"><img src="{% static 'images/img1.jpg' %}" alt="logo"></a>
     </div>
     <div class="toggle">
       <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
     </div>
+    
     <ul class="menu">
       <li><a href="{% url 'home' %}">Home</a></li>
       <li><a href="{% url 'product' %}">Products</a></li>
@@ -34,6 +34,49 @@
       <li><a href="#">Contact Us</a></li>
     </ul>
   </nav>
+  <marquee behaviour="slide" direction="left" scrollamount="5">
+    <p style="font-size: 50px; font-weight: 900;">Get upto 50%off on sale season
+          </p>
+  </marquee>
+
+  <h2>Wall decor lights</h2>
+  <div class="image">
+    <img  class="img1"
+       src="{% static 'images/img2.jpeg' %}" alt="image"></a>
+       <img  class="img2"
+       src="{% static 'images/img3.jpeg' %}" alt="image"></a>
+
+  </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script>
     $(function(){
@@ -45,14 +88,11 @@
         else{
           $(".menu").addClass("active");
           $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
-
         }
       });
     });
   </script>
-  <div class="im">
-    <img src="{% static 'images/img1.jpg' %}" alt="logo">
-  </div>
+  
 
 
  
