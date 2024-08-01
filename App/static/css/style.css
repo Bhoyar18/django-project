@@ -1,22 +1,20 @@
-
-
-
-
 /* homepage css */
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.bg{
+
+.bg {
     font-family: "Inria Serif", serif;
     background: grey;
-   
-   
-    
+
+
+
 }
+
 /*  ta,a:hover{
    ext-decoration: none;
 }
@@ -46,76 +44,81 @@
     color: whitesmoke;
 } */
 
-nav{
-    background: palevioletred;
+nav {
+    background: whitesmoke;
     padding: 5px 20px;
     display: flex;
-   
-   
-   
-}
-nav a{
-    color: black;
-    font-weight: 800;
-    text-decoration: none;
-    font-size: 22px;
-    
-}
-nav a:hover{
-    color: whitesmoke;
-}
-.logo{
-    flex: 1;
-   
 }
 
-.logo img{
-    width: 40px;
-    height: 30px;
+nav a {
+    color: black;
+    /* text-decoration: none; */
+    font-size: 23px;
+    font-weight: 900;
+
+
+}
+
+nav a:hover {
+    color: plum;
+}
+
+.logo {
+    flex: 1;
+
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
     border-radius: 30px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     list-style: none;
-  
-}
-.menu li {
-    
-    list-style: none;
-    padding: 15px 10px;
-    
 }
 
-.toggle{
+.menu li {
+    list-style: none;
+    padding: 15px 10px;
+}
+
+.toggle {
     font-size: 30px;
     display: none;
 }
-@media screen and (max-width:600px){
-    nav{
+
+@media screen and (max-width:600px) {
+    nav {
         display: block;
         position: relative;
         padding: 15px 20px;
     }
-    .menu{
+
+    .menu {
         margin-top: 15px;
         display: none;
 
     }
-    .menu-active, .toggle{
+
+    .menu-active,
+    .toggle {
         display: block;
     }
-    .toggle{
+
+    .toggle {
         position: absolute;
         top: 15px;
         right: 20px;
     }
 }
-.image{
+
+.image {
     display: flex;
     gap: 60px;
     margin-left: 100px;
@@ -128,6 +131,7 @@ nav a:hover{
     position: relative;
     width: 50%;
 }
+
 .img1 {
     opacity: 1;
     display: block;
@@ -135,7 +139,8 @@ nav a:hover{
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-} 
+}
+
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -145,36 +150,37 @@ nav a:hover{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
+}
+
 .container:hover .img1 {
     opacity: 0.3;
 }
+
 .container:hover .middle {
     opacity: 1;
 }
-  
-.text1{
+
+.text1 {
     color: black;
     font-weight: 700;
     font-size: 26px;
     padding: 16px 32px;
     margin-right: 80px;
-    
-  }
 
-  .container2 {
+}
+
+.container2 {
     position: relative;
     width: 50%;
-  }
-  
-  .img2 {
+}
+
+.img2 {
     display: block;
     width: 100%;
     height: auto;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -183,16 +189,16 @@ nav a:hover{
     opacity: 0.8;
     overflow: hidden;
     width: 390px;
-    height:0;
+    height: 0;
     transition: .5s ease;
-  }
-  
-  .container2:hover .overlay {
+}
+
+.container2:hover .overlay {
     bottom: 0;
     height: 100%;
-  }
-  
-  .text2 {
+}
+
+.text2 {
     color: black;
     font-size: 20px;
     font-weight: 700;
@@ -203,5 +209,84 @@ nav a:hover{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
+}
+
+/* footer */
+footer {
+    margin-top: 40px;
+}
+
+.foot-panel1 {
+    background-color: white;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: whitesmoke;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: bla;
+}
+
+.foot-panel3 {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo1 {
+    background-image: url("{% static 'images/img19.jpeg' %}");
+    background-size: cover;
+    border-radius: 60%;
+    height: 50px;
+    width: 100px;
+
+}
+
+.foot-panel4 {
+    background-color: #0F1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.pages {
+    padding-top: 25px;
+
+}
+
+.copy-right {
+    padding-top: 3px;
+}
+.button{
+    padding: 7px;
+    height: 60px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 460px;
+    border-radius: 20px;
+}

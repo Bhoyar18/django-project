@@ -23,15 +23,14 @@
   <!-- nav>.logo+.toggle+ul.menu>li*5>a -->
   <nav>
     <div class="logo">
-      <a href="#"><img src="{% static 'images/img1.jpg' %}" alt="logo"></a>
+      <a href="#"><img src="{% static 'images/logo.jpeg' %}" alt="logo"></a>
     </div>
     <div class="toggle">
       <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
     </div>
-
     <ul class="menu">
       <li><a href="{% url 'home' %}">Home</a></li>
-      <li><a href="{% url 'product' %}">Products</a></li>
+      <li><a href="{% url 'product' %}">Collection</a></li>
       <li><a href="#">About US</a></li>
       <li><a href="#">Contact Us</a></li>
     </ul>
@@ -88,26 +87,82 @@
   <p>Fresh drops daily Hottest designs under 2000</p>
   <h1>Dont Miss Out </h1>
 
-  <div style="display: flex; gap: 50px; margin-left: 40px; color: white;">
+  <div style="display: flex; gap: 50px; margin-left: 40px; color: white; ">
     <div>
-      <img style="height: 300px;  width: 250px;background-size: cover; " class="img2"
+      <img style="height: 300px;  width: 290px;background-size: cover; border: 2px solid white;" class="img2"
         src="{% static 'images/img17.jpeg' %}" alt="image">
-      <h3>tree brach</h3>
+      <h3>Multi light leaf</h3>
       <h2>upto 50% Off</h2>
     </div>
     <div>
-      <img style="height: 300px;  width: 250px;background-size: cover;" class="img2"
+      <img style="height: 300px;  width: 290px;background-size: cover;border: 2px solid white;" class="img2"
         src="{% static 'images/img18.jpeg' %}" alt="image">
-      <h3>tree brach</h3>
+      <h3>Golden black round shape</h3>
       <h2>upto 50% Off</h2>
     </div>
     <div>
-      <img style="height: 300px;  width: 250px;background-size: cover;" class="img2"
+      <img style="height: 300px;  width: 290px;background-size: cover;border: 2px solid white;" class="img2"
         src="{% static 'images/img19.jpeg' %}" alt="image">
-      <h3>tree brach</h3>
+      <h3>Tree branches</h3>
       <h2>upto 50% Off</h2>
     </div>
   </div>
+<br>
+  <button class="button">See Collection</button>
+
+   <!-- footer -->
+   
+   <footer>
+    <div class="foot-panel1">
+    </div>
+
+    <div class="foot-panel2">
+        <ul>
+            <p style="font-weight: 700;">Get to Know Us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+        </ul>
+
+        <ul>
+            <p  style="font-weight: 700;"> Make Money with Us</p>
+            <a>Sell products </a>
+            <a>Become an Affiliate</a>
+            <a>Self-Publish with Us</a>
+        </ul>
+
+        <ul>
+            <p  style="font-weight: 700;">Payment Products</p>
+            <a>Shop with Points</a>
+            <a>Reload Your Balance</a>
+        </ul>
+
+        <ul>
+            <p  style="font-weight: 700;">Let Us Help You</p>
+            <a>Your Orders</a>
+            <a>Shipping Rates & Policies</a>
+            <a>Returns & Replacements</a>
+            <a>Manage Your Content</a>
+        </ul>
+
+    </div>
+
+    <div class="foot-panel3">
+        <div class="logo1"></div>
+    </div>
+
+    <div class="foot-panel4">
+        <div class="pages">
+            <a>Condition of User</a>
+            <a>Privacy Notice</a>
+            <a>Your ad Privacy Choices</a>
+        </div>
+        <div class="copy-right">
+            © 2020-2024Inc
+        </div>
+    </div>
+</footer>
+</div>
+
 
 
 
