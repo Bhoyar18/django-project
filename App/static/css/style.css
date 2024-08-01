@@ -61,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-    color: plum;
+    color: brown;
 }
 
 .logo {
@@ -295,3 +295,43 @@ ul a {
     margin-left: 460px;
     border-radius: 20px;
 }
+
+/* ======================================================================================== */
+/* product page css */
+.product{
+    display: flex;
+    gap: 30px;
+}
+.p1img{
+    height: 300px;  
+    width: 290px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 white;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
