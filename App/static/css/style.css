@@ -9,10 +9,8 @@
 
 .bg {
     font-family: "Inria Serif", serif;
-    background-color: #222f3d;
-
-
-
+    /* background-color: #222f3d; */
+    background-color: grey;
 }
 
 /*  ta,a:hover{
@@ -317,7 +315,7 @@ ul a {
   }
   
   .price {
-    color: grey;
+    color: yellow;
     font-size: 22px;
   }
   
@@ -336,4 +334,13 @@ ul a {
   .card button:hover {
     opacity: 0.7;
   }
+
+  /* .hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  } */
 
