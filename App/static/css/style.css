@@ -100,16 +100,16 @@ nav a:hover {
 
 
 div.scroll-container {
-    background-color: #333;
+    /* background-color: #333; */
     overflow: auto;
     white-space: nowrap;
-    padding: 10px;
+    padding: 5px;
   }
   
   div.scroll-container img {
-    padding: 10px;
+    padding: 5px;
     height: 500px;
-    width: 80%;
+    width: 70%;
 
   }
 
@@ -250,7 +250,7 @@ footer {
 .foot-panel2 {
     background-color: whitesmoke;
     color: black;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -314,6 +314,11 @@ ul a {
 
 /* ======================================================================================== */
 /* product page css */
+
+
+
+
+
 .product{
     display: flex;
     gap: 30px;
