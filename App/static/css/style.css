@@ -97,10 +97,6 @@ nav a:hover {
     display: none;
 }
 
-
-
-
-
 @media screen and (max-width:600px) {
     nav {
         display: block;
@@ -278,7 +274,7 @@ nav a:hover {
 
 /* footer */
 footer {
-    margin-top: 40px;
+    margin-top: 150px;
 }
 
 .foot-panel1 {
@@ -360,12 +356,7 @@ button:hover{
 
 }
 
-/* ======================================================================================== */
-/* product page css */
-
-
-
-
+/* ================================PRODUCT PAGE CSS==================================== */
 
 .product{
     display: flex;
@@ -413,3 +404,52 @@ button:hover{
     color: red;
   } */
 
+/* =====================================ABOUT PAGE CSS================================== */
+.imagee {
+    margin: 28px;
+    width: 900px;
+    height: 380px;
+   margin-left: 50px;
+   margin-top: 60px;
+   border-radius: 30px;
+   
+    /* opacity: 0.5; */
+
+}
+
+.headd {
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    margin-top: -299px ;
+    opacity: 1;
+}
+.headd2{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    margin-top: -219px ;
+    opacity: 1;
+
+}
+.email{
+    margin-left: 390px;
+    margin-top: 200px;
+    background-color: aliceblue;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+.btnn4{
+    margin-left: 450px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+   
+}
