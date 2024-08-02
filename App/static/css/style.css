@@ -405,13 +405,28 @@ button:hover{
   } */
 
 /* =====================================ABOUT PAGE CSS================================== */
+
+
+.about{
+    width: 500px;
+    height: 400px;
+    margin-left: 60px;
+    background-size: cover;
+
+}
+.abouttxt{
+    margin-top: 5px;
+    margin-left: 160px;
+    color: white;
+}
 .imagee {
     margin: 28px;
-    width: 900px;
-    height: 380px;
-   margin-left: 50px;
-   margin-top: 60px;
-   border-radius: 30px;
+    width: 700px;
+    height: 400px;
+    margin-left: 140px;
+    margin-top: 90px;
+    border-radius: 30px;
+    /* background-size: cover; */
    
     /* opacity: 0.5; */
 
@@ -428,7 +443,7 @@ button:hover{
     color: white;
     font-weight: 900;
     text-align: center;
-    margin-top: -219px ;
+    margin-top: -230px ;
     opacity: 1;
 
 }
