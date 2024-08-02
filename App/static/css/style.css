@@ -43,7 +43,7 @@
 } */
 
 nav {
-    background: whitesmoke;
+    background: white;
     padding: 5px 20px;
     display: flex;
     height: 70px;
@@ -70,13 +70,12 @@ nav a:hover {
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
+    width: 60px;
+    height: 70px;
+    border-radius: 40px;
     margin-right: 10px;
-    margin-top: 30px;
+    margin-top: -5px;
 }
-
 
 .menu {
     display: flex;
@@ -355,6 +354,10 @@ ul a {
     font-weight: 700;
     margin-left: 460px;
     border-radius: 20px;
+}
+button:hover{
+    color: white;
+
 }
 
 /* ======================================================================================== */
