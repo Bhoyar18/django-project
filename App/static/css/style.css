@@ -125,8 +125,8 @@ nav a:hover {
 .image {
     display: flex;
     gap: 60px;
-    margin-left: 100px;
-    margin-top: 20px;
+    margin-left: 70px;
+    margin-top: 40px;
 }
 
 
@@ -183,6 +183,7 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
+    margin-top: 15px ;
     border: 2px solid yellowgreen;
 }
 
@@ -345,11 +346,12 @@ ul a {
 .button{
     padding: 7px;
     height: 60px;
+    width: 200px;
     color: black;
     font-size: 20px;
     font-weight: 700;
     margin-left: 460px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 button:hover{
     color: white;
@@ -414,62 +416,14 @@ button:hover{
     background-size: cover;
 
 }
-.abouttxt{
-    margin-top: 5px;
-    margin-left: 160px;
-    color: white;
-}
-.imagee {
-    margin: 28px;
-    width: 700px;
-    height: 400px;
-    margin-left: 140px;
-    margin-top: 90px;
-    border-radius: 30px;
-    /* background-size: cover; */
-   
-    /* opacity: 0.5; */
-
-}
-
-.headd {
-    color: black;
-    font-weight: 900;
-    text-align: center;
-    margin-top: -299px ;
-    opacity: 1;
-}
-.headd2{
-    color: white;
-    font-weight: 900;
-    text-align: center;
-    margin-top: -230px ;
-    opacity: 1;
-
-}
-.email{
-    margin-left: 390px;
-    margin-top: 200px;
-    background-color: aliceblue;
-    color: white;
-    font-weight: 800;
-    padding: 10px;
-    cursor: pointer;
-   
-}
-.btnn4{
-    margin-left: 450px;
-    margin-top: 10px;
-    background-color: aliceblue;
-    color: black;
-    font-weight: 800;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 20px;
-   
+.aboutimg{
+    width: 800px;
+    height: 500px;
+    margin-left: 100px;
 }
 
 /* =============================LOGIN PAGE CSS========================================= */
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
@@ -477,6 +431,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     background: #f1f1f1;
+    border: 2px solid black;
   }
   
   /* Add a background color when the inputs get focus */
@@ -487,14 +442,14 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-   
-    color: black;
+    color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
     border-radius: 20px;
+    background-color: grey;
     /* opacity: 0.9; */
   }
   
@@ -505,13 +460,14 @@ input[type=text], input[type=password] {
   /* Extra styles for the cancel button */
   .cancelbtn {
     padding: 14px 20px;
-    background-color: #f44336;
+    background-color: grey;
   }
   
   /* Float cancel and signup buttons and add an equal width */
   .cancelbtn, .signupbtn {
     float: left;
     width: 50%;
+    background-color: grey;
   }
   
   /* Add padding to container elements */
