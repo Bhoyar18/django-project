@@ -275,7 +275,7 @@ nav a:hover {
 
 /* footer */
 footer {
-    margin-top: 150px;
+    margin-top: 350px;
 }
 
 .foot-panel1 {
@@ -418,10 +418,24 @@ button:hover{
 }
 .aboutimg{
     width: 800px;
-    height: 500px;
+    height: 400px;
     margin-left: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
-
+.aboutemail input[type=text]{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 290px;
+}
+.aboutbtn{
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-left: 420px;
+    border: 2px solid white;
+}
 /* =============================LOGIN PAGE CSS========================================= */
 
 input[type=text], input[type=password] {
