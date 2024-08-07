@@ -1,25 +1,85 @@
-
 {% load static %}
 
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+<style>
 
-</html>
-    <div>
+body
+{
+    font-family:  Arial;
+}
+</style>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div style="display: flex; gap: 25px; margin-left: 50px;">
         <div>
-            <img src="{% static 'images/imgg1.jpg' %}">
+            <img style="height: 260px; width: 600px;" src="{%  static 'images/imgg1.jpg' %}">
         </div>
         <div>
-            <h1>Up your burger game<br> or chill with the new<br> McFlurry®</h1>
+            <h2 style="font-weight: bolder; font-size: 29px; opacity: 0.9;">
+                Up your burger game<br> or chill with the new<br> McFlurry®</h2>
+
+            <p style="font-size: 14px;opacity: 0.7;">Enjoy hot McD's summer with burgers and soft serve. <br>Not only is
+                the Smoky BLT QPC (single or double)
+                back<br>in all its bold, bacon-y glory but the new KIT KAT®<br>Banana Split McFlurry® is out here doing
+                big
+                things.<br>The best part: you can try 'em today—how's that for a<br>break? Order ahead in the app to
+                save time.*
+            </p>
+
+            <p style="font-size: 9px; opacity: 0.6;">
+                The KIT KAT® trademark and trade dress are used under license from Société des<br> Produits Nestlé S.A.
+                and with permission from The Hershey Company.<br>
+                *At participating McDonald’s for a limited time. McDonald’s app download and<br> registration required.
+                Mobile Order & Pay available at participating McDonald’s.
+            </p>
+            <br>
+
+            <button style="background-color: orange; border: 0cap; width: 150px; height: 40px;
+                border-radius: 4px; cursor: pointer;">Order in the App</button>
         </div>
     </div>
+    <br><br>
+    <br>
+    <br>
+    <div style="display: flex; gap: 25px; margin-left: 50px;">
+        <div>
+            <img style="height: 260px; width: 600px;" src="{%  static 'images/img2.jpg' %}">
+        </div>
+        <div>
+            <h2 style="font-weight: bolder; font-size: 29px; opacity: 0.9;">Free large Fries w/ $1<br> min. purchase
+            </h2>
+            <p style="font-size: 14px;opacity: 0.7;">Free large Fries to keep you company. Download the <br>
+                app and <b style="font-weight: 900;">get 'em with your first purchase</b> of $1+.* <br>
+                Every $1 you spend earns 100 points, redeemable for free food.</p>
+            <p style="font-size: 9px; opacity: 0.6;">
+                *Offer valid 1x thru the last day of month for first time app users at participating<br>
+                McDonald’s. May take up to 48 hours to appear in your deals. Must opt in to Rewards.<br> Excludes tax.
+            </p>
+            <br>
+            <br>
+            <button style="background-color: orange; border: 0cap; width: 220px; height: 40px;
+                border-radius: 4px; cursor: pointer;">Get Free Large Fries in the App</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+
 </body>
-  
+
+</html>
