@@ -1,18 +1,19 @@
 {% load static %}
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
     <title>Document</title>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-
 </head>
+
 <style>
     body {
         font-family: Arial;
@@ -21,7 +22,7 @@
 
 
 <body>
-    <nav>
+    <!-- <nav>
         <br>
         <div style="display: flex; gap: 150px;">
         <div style="display: flex; margin-left: 140px; opacity: 0.7;font-size: 10px;">
@@ -55,12 +56,177 @@
                 <ul>Gift Cards</ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <header>
+        <div>
+            <div class="div">
+                <div id="products1-menu-item" class="menu-item">
+                    <div>
+                        <a href="#">Language</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <a href="">Sign Up for Emails</a>
+                        <a href="">careers</a>
+                    </div>
+                </div>
+                <div class="search">
+                    <a href="">Search</a>
+                    <i class="fa-duotone fa-solid fa-magnifying-glass"></i>&nbsp; &nbsp;
+                    <a href="">Find your Restaurant</a>
+                    <i class="fa-solid fa-location-dot"></i>&nbsp; &nbsp; &nbsp; &nbsp;
+                    <button>
+                        <a href="#">Order Now</a>
+                    </button>
+                </div>
+            </div>
+
+            <nav>
+                <img class="logo" src="{% static 'images/logo.jpg'%}" alt="">
+                <div id="products-menu-item" class="menu-item">
+                    <div id="product-dropdown-btn">
+                        <a href="#">Our Menu</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div id="products-dropdown">
+                        <div class="products-row">
+                            <!-- Add your categories here -->
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/breakfast.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/burgers.jpg'%}" alt="">
+                                    <p>Burgers</p>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/breakfast.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+                            <!-- Repeat other categories as needed -->
+                        </div>
+
+                        <div class="products-row">
+                            <!-- Add your categories here -->
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/chicken.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/meals.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/shakes.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <!-- Repeat other categories as needed -->
+                        </div>
+                        <div class="products-row">
+                            <!-- Add your categories here -->
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/happy.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/fries.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/drinks.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <!-- Repeat other categories as needed -->
+                        </div>
+
+                        <div class="products-row">
+                            <!-- Add your categories here -->
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/deal.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/dollar.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="category">
+                                    <img src="{% static 'images/coffee.jpg'%}" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                            </a>
+
+                            <!-- Repeat other categories as needed -->
+                        </div>
+
+                        <!-- <div class="products-row">
+                          
+                              <a href="#" id="more-categories">
+                                  <div class="category">
+                                      <p>All categories...</p>
+                                  </div>
+                              </a>
+                          </div> -->
+                    </div>
+                </div>
+                <!-- Other menu items -->
+                <div class="menu-item"><a href="">Download App</a></div>
+                <div class="menu-item"><a href="">MyMcDonald's Rewards</a></div>
+                <div class="menu-item"><a href="">Exclusive Deals</a></div>
+                <div class="menu-item"><a href="">About Our food</a></div>
+                <div class="menu-item"><a href="">McDelivery</a></div>
+                <div class="menu-item"><a href="">Locate</a></div>
+                <div class="menu-item"><a href="">Gift Card</a></div>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <br>
 
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/imgg1.jpg' %}">
         </div>
@@ -91,7 +257,7 @@
     <br><br>
     <br>
     <br>
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/img2.jpg' %}">
         </div>
@@ -115,7 +281,7 @@
     <br>
     <br>
     <br>
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/img3.jpg' %}">
         </div>
@@ -139,7 +305,7 @@
     <br>
     <br>
 
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/img4.jpg' %}">
         </div>
@@ -168,7 +334,7 @@
     <br>
 
 
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/img5.jpg' %}">
         </div>
@@ -201,7 +367,7 @@
     <br>
     <br>
     <br>
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/img6.jpg' %}">
         </div>
@@ -232,7 +398,7 @@
     <br>
     <br>
 
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/img7.jpg' %}">
         </div>
@@ -264,7 +430,7 @@
     <br>
     <br>
 
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/img8.jpg' %}">
         </div>
@@ -291,7 +457,7 @@
 
     <br>
     <br>
-    <div style="display: flex; gap: 25px; margin-left: 50px;">
+    <div style="display: flex; gap: 35px; margin-left: 50px;">
         <div>
             <img style="height: 260px; width: 600px;" src="{%  static 'images/img9.jpg' %}">
         </div>
@@ -317,7 +483,7 @@
     <br>
     <br>
     <footer>
-        <div style="display: flex; gap: 70px; margin-left: 50px;">
+        <div style="display: flex; gap: 120px; margin-left: 50px;">
             <div style="font-size: 13px;">
                 <h3>About us</h3>
                 <p>About Us Overview</p>
@@ -406,7 +572,37 @@
 
     </footer>
 
+    <script>
+         // Toggle dropdown on click
+         document.addEventListener('DOMContentLoaded', () => {
+            const productsDropdownBtn = document.querySelector('#product-dropdown-btn');
+            const productsMenuItem = document.querySelector('#products-menu-item');
+            const productsDropdown = document.querySelector('#products-dropdown');
 
+            productsDropdownBtn.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent the default link behavior
+                event.stopPropagation(); // Stop the event from propagating to document click
+
+                if (productsDropdown.style.display === 'flex') {
+                    productsDropdown.style.display = 'none';
+                } else {
+                    productsDropdown.style.display = 'flex';
+                }
+            });
+
+            // Close the dropdown when clicking outside of it
+            document.addEventListener('click', (event) => {
+                if (!productsMenuItem.contains(event.target)) {
+                    productsDropdown.style.display = 'none';
+                }
+            });
+
+            // Prevent closing the dropdown when clicking inside it
+            productsMenuItem.addEventListener('click', (event) => {
+                event.stopPropagation();
+            });
+        });
+    </script>
 
 
 
