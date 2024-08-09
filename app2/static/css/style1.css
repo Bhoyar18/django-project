@@ -6,14 +6,14 @@ nav {
 }
 
 .menu-item {
-    margin: 0 10px;
+    margin-left:  30px;
 }
 
 .menu-item a {
     text-decoration: none;
     color: black;
-    font-size: 14px;
-    margin-left: 30px;
+    font-size: 12px;
+    /* margin-left: 30px; */
 }
 
 .menu-item:hover, .menu-item:hover a {
@@ -22,6 +22,7 @@ nav {
 
 #products-menu-item {
     position: relative;
+
 }
 
 #product-dropdown-btn {
