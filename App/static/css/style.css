@@ -459,30 +459,39 @@ input[type=text], input[type=password] {
   /* Set a style for all buttons */
   button {
     color: white;
-    padding: 14px 20px;
+    padding: 10px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
     border-radius: 20px;
     background-color: grey;
+    font-weight: 600;
+    font-size: 20px;
+    
     /* opacity: 0.9; */
   }
   
-  /* button:hover {
-    opacity:1;
-  } */
+  button:hover {
+     color: black;
+     background-color: pink;
+     cursor: pointer;
+     border: 2px solid black;
+    font-weight: 600;
+
+  }
+ 
   
   /* Extra styles for the cancel button */
   .cancelbtn {
-    padding: 14px 20px;
+    padding: 10px 20px;
     background-color: grey;
   }
   
   /* Float cancel and signup buttons and add an equal width */
   .cancelbtn, .signupbtn {
     float: left;
-    width: 50%;
+    width: 45%;
     background-color: grey;
   }
   
@@ -515,7 +524,7 @@ input[type=text], input[type=password] {
   
   /* Style the horizontal ruler */
   hr {
-    border: 1px solid #f1f1f1;
+    border: 5px solid grey;
     margin-bottom: 25px;
   }
    
