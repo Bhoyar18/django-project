@@ -24,18 +24,21 @@
   </div> -->
   <!-- nav>.logo+.toggle+ul.menu>li*5>a -->
   <nav>
-    <div class="logo">
-      <!-- <a href="#"><img src="{ % static 'images/logo1.jpeg' % }" alt="logo"></a> -->
-      <!-- <a href="#"><img src="{ % static 'images/img10.jpeg' % }" alt="logo"></a> -->
-    </div>
+    <!-- <div class="logo">
+      <a href="#"><img src="{ % static 'images/logo1.jpeg' % }" alt="logo"></a>
+    </div> -->
     <div class="toggle">
       <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
     </div>
     <ul class="menu">
+      <div class="logo">
+      <a href="#"><img src="{% static 'images/static.logo1.jpeg' %}" alt="logo"></a>
+      </div>
       <li><a href="{% url 'home' %}">Home</a></li>
       <li><a href="{% url 'product' %}">Collection</a></li>
       <li><a href="{% url 'about' %}">About US</a></li>
       <li><a href="{% url 'login' %}">Contact Us</a></li>
+      <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
     </ul>
   </nav>
   {% block content %}
